@@ -1,8 +1,8 @@
 
 import React, { useLayoutEffect, useRef, useState } from 'react';
-import Navbar from './Navbar';
-import GrainOverlay from './GrainOverlay';
-import OtherSide from './Oracle';
+import Navbar from './components/Navbar';
+import GrainOverlay from './components/GrainOverlay';
+import OtherSide from './components/Oracle';
 
 declare const gsap: any;
 declare const ScrollTrigger: any;
